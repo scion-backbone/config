@@ -16,7 +16,7 @@
         }
     },
     "osaka": {
-        "public-ip": "54.219.196.249",
+        "public-ip": "13.208.244.144",
         "ssh-user": "ubuntu",
         "provider": {
             "node": "tokyo",

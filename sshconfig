@@ -23,6 +23,6 @@ Host sbas-california
     User ubuntu
 
 Host sbas-osaka
-    HostName 54.219.196.249
+    HostName 13.208.244.144
     User ubuntu
 
