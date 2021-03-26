@@ -1,6 +1,8 @@
 #!/bin/bash
-echo
-./src/gen.py
-git add sshconfig
-git commit --amend -C HEAD --no-verify
+if [ -z "$AUTOMATIC" ]; then
+    echo "Amending procedurally generated files..."
+    ./src/gen.py
+    git add sshconfig
+    AUTOMATIC=true git commit --amend -C HEAD --no-verify
+fi
 exit
