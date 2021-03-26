@@ -14,5 +14,13 @@
             "node": "oregon",
             "addr": "184.164.236.11"
         }
+    },
+    "osaka": {
+        "public-ip": "54.219.196.249",
+        "ssh-user": "ubuntu",
+        "provider": {
+            "node": "tokyo",
+            "addr": "184.164.237.141"
+        }
     }
 }
