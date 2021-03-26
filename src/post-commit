@@ -1,2 +1,4 @@
 #!/bin/bash
 ./src/gen.py
+git add sshconfig
+git commit --amend -C HEAD --no-verify
