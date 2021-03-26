@@ -1,4 +1,6 @@
 #!/bin/bash
+echo
 ./src/gen.py
 git add sshconfig
 git commit --amend -C HEAD --no-verify
+exit
