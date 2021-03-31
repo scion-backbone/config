@@ -2,7 +2,7 @@
 if [ -z "$AUTOMATIC" ]; then
     echo "Amending procedurally generated files..."
     ./src/gen.py
-    git add sshconfig
+    git add gen
     AUTOMATIC=true git commit --amend -C HEAD --no-verify
 fi
 exit
