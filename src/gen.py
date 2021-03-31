@@ -29,12 +29,22 @@ def gen_sshconfig():
             f.write(f"    User {user}\n\n")
 
 def gen_client_cfgs():
+    # From the file "customers.json", generate the individual client
+    # configuration files
     for name, data in customers.items():
         cfg = data.copy()
-        del cfg[HOST_KEY]
-        del cfg[USER_KEY]
+        del cfg[HOST_KEY] # only required for SSH
+        del cfg[USER_KEY] # only required for SSH
+
+        # Add information about provider nodes
+        relevant_fields = ['vpn-key', 'public-ip'] 
+        for provider in cfg['providers']:
+            node = nodes[provider['id']]
+            for field in relevant_fields:
+                provider[field] = node[field]
+
         with open(os.path.join(GEN_DIR, f"client-{name}.json"), 'w') as f:
-            json.dump(cfg, f)
+            json.dump(cfg, f, indent=2)
 
 if __name__ == '__main__':
     gen_sshconfig()

@@ -1,1 +1,13 @@
-{"provider": {"node": "tokyo", "addr": "184.164.237.141"}}
+{
+  "providers": [
+    {
+      "id": "tokyo",
+      "local": "184.164.237.141",
+      "out_prefixes": [
+        "184.164.236.0/23"
+      ],
+      "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+      "public-ip": "52.69.124.96"
+    }
+  ]
+}
