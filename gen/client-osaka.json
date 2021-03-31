@@ -3,7 +3,7 @@
     {
       "id": "tokyo",
       "local": "184.164.237.141",
-      "out_prefixes": [
+      "out-prefixes": [
         "184.164.236.0/23"
       ],
       "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",

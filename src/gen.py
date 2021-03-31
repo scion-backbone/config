@@ -7,13 +7,13 @@ HOST_KEY = 'public-ip'
 USER_KEY = 'ssh-user'
 
 nodes = {}
-customers = {}
+clients = {}
 
 with open('nodes.json', 'r') as cfg:
     nodes = json.load(cfg)
 
-with open('customers.json', 'r') as cfg:
-    customers = json.load(cfg)
+with open('clients.json', 'r') as cfg:
+    clients = json.load(cfg)
 
 def gen_sshconfig():
     DEFAULT_USER = 'scionlab'
@@ -21,7 +21,7 @@ def gen_sshconfig():
     with open(os.path.join(GEN_DIR, 'sshconfig'), 'w') as f:
         remotes = {}
         remotes.update(nodes)
-        remotes.update(customers)
+        remotes.update(clients)
         for name, data in remotes.items():
             user = data[USER_KEY] if USER_KEY in data else DEFAULT_USER
             f.write(f"Host sbas-{name}\n")
@@ -31,7 +31,7 @@ def gen_sshconfig():
 def gen_client_cfgs():
     # From the file "customers.json", generate the individual client
     # configuration files
-    for name, data in customers.items():
+    for name, data in clients.items():
         cfg = data.copy()
         del cfg[HOST_KEY] # only required for SSH
         del cfg[USER_KEY] # only required for SSH
