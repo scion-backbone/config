@@ -1,5 +1,5 @@
 Host sbas-oregon
-    HostName 52.12.25.61
+    HostName 44.241.139.170
     User scionlab
 
 Host sbas-frankfurt

@@ -1,6 +1,6 @@
 {
   "oregon": {
-    "public-ip": "52.12.25.61",
+    "public-ip": "44.241.139.170",
     "scion-ia": "16-ffaa:0:1008",
     "int-prefix": "172.22.1.0/24",
     "int-sig-ip": "172.22.1.1",
