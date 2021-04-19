@@ -31,5 +31,27 @@
                 "out-prefixes": ["184.164.236.0/23"]
             }
         ]
+    },
+    "isi": {
+        "public-ip": "23.240.98.171",
+        "ssh-user": "henry",
+        "providers": [
+            {
+                "id": "oregon",
+                "local": "184.164.236.22",
+                "out-prefixes": ["184.164.236.0/23"]
+            }
+        ]
+    },
+    "grnet": {
+        "public-ip": "23.240.98.171",
+        "ssh-user": "henry",
+        "providers": [
+            {
+                "id": "frankfurt",
+                "local": "184.164.236.152",
+                "out-prefixes": ["184.164.236.0/23"]
+            }
+        ]
     }
 }

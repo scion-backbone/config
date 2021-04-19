@@ -26,3 +26,11 @@ Host sbas-osaka
     HostName 13.208.244.144
     User ubuntu
 
+Host sbas-isi
+    HostName 23.240.98.171
+    User henry
+
+Host sbas-grnet
+    HostName 23.240.98.171
+    User henry
+

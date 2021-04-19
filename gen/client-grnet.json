@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "id": "frankfurt",
+      "local": "184.164.236.152",
+      "out-prefixes": [
+        "184.164.236.0/23"
+      ],
+      "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+      "public-ip": "52.58.224.202"
+    }
+  ]
+}
