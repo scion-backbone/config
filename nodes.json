@@ -4,13 +4,13 @@
     "scion-ia": "16-ffaa:0:1008",
     "int-prefix": "172.22.1.0/24",
     "int-sig-ip": "172.22.1.1",
-    "ext-prefix": "184.164.236.0/25",
-    "ext-vpn-ip": "184.164.236.1",
-    "ext-router-ip": "184.164.236.2",
+    "ext-prefix": "66.180.190.0/25",
+    "ext-vpn-ip": "66.180.190.1",
+    "ext-router-ip": "66.180.190.2",
     "peering-mux": "seattle01",
     "peering-prefixes": [
-      ["184.164.236.0/24", "184.164.236.1/24"], 
-      ["184.164.237.0/24", "184.164.237.1/24"]
+      ["66.180.190.0/24", "66.180.190.1/24"], 
+      ["66.180.191.0/24", "66.180.191.1/24"]
     ],
     "outbound-gateway": "local",
     "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
@@ -20,13 +20,13 @@
     "scion-ia": "16-ffaa:0:1009",
     "int-prefix": "172.22.2.0/24",
     "int-sig-ip": "172.22.2.1",
-    "ext-prefix": "184.164.236.128/25",
-    "ext-vpn-ip": "184.164.236.129",
-    "ext-router-ip": "184.164.236.130",
+    "ext-prefix": "66.180.190.128/25",
+    "ext-vpn-ip": "66.180.190.129",
+    "ext-router-ip": "66.180.190.130",
     "peering-mux": "amsterdam01",
     "peering-prefixes": [
-      ["184.164.236.0/24", "184.164.236.1/24"], 
-      ["184.164.237.0/24", "184.164.237.1/24"]
+      ["66.180.190.0/24", "66.180.190.1/24"], 
+      ["66.180.191.0/24", "66.180.191.1/24"]
     ],
     "outbound-gateway": "local",
     "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
@@ -36,9 +36,9 @@
     "scion-ia": "16-ffaa:0:100a",
     "int-prefix": "172.22.3.0/24",
     "int-sig-ip": "172.22.3.1",
-    "ext-prefix": "184.164.237.0/25",
-    "ext-vpn-ip": "184.164.237.1",
-    "ext-router-ip": "184.164.237.2",
+    "ext-prefix": "66.180.191.0/25",
+    "ext-vpn-ip": "66.180.191.1",
+    "ext-router-ip": "66.180.191.2",
     "outbound-gateway": "frankfurt",
     "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
   },
@@ -47,9 +47,9 @@
     "scion-ia": "16-ffaa:0:100b",
     "int-prefix": "172.22.4.0/24",
     "int-sig-ip": "172.22.4.1",
-    "ext-prefix": "184.164.237.128/25",
-    "ext-vpn-ip": "184.164.237.129",
-    "ext-router-ip": "184.164.237.130",
+    "ext-prefix": "66.180.191.128/25",
+    "ext-vpn-ip": "66.180.191.129",
+    "ext-router-ip": "66.180.191.130",
     "outbound-gateway": "frankfurt",
     "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
   }
