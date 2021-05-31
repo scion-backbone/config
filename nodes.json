@@ -13,7 +13,8 @@
       ["66.180.191.0/24", "66.180.191.1/24"]
     ],
     "outbound-gateway": "local",
-    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
+    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+    "connected_clients": ["california", "isi"]
   },
   "frankfurt": {
     "public-ip": "52.58.224.202",
@@ -29,7 +30,8 @@
       ["66.180.191.0/24", "66.180.191.1/24"]
     ],
     "outbound-gateway": "local",
-    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
+    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+    "connected_clients": ["zurich", "grnet"]
   },
   "singapore": {
     "public-ip": "54.254.43.169",
@@ -40,7 +42,8 @@
     "ext-vpn-ip": "66.180.191.1",
     "ext-router-ip": "66.180.191.2",
     "outbound-gateway": "frankfurt",
-    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
+    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+    "connected_clients": []
   },
   "tokyo": {
     "public-ip": "52.69.124.96",
@@ -51,6 +54,7 @@
     "ext-vpn-ip": "66.180.191.129",
     "ext-router-ip": "66.180.191.130",
     "outbound-gateway": "frankfurt",
-    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI="
+    "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+    "connected_clients": ["osaka"]
   }
 }
