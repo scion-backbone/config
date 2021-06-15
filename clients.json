@@ -9,7 +9,7 @@
                 "out-prefixes": ["66.180.190.0/23"]
             }
         ],
-        "as_number": "65427"
+        "as-number": "65427"
     },
     "california": {
         "public-ip": "54.219.196.249",
@@ -21,7 +21,7 @@
                 "out-prefixes": ["66.180.190.0/23"]
             }
         ],
-        "as_number": "65428"
+        "as-number": "65428"
     },
     "osaka": {
         "public-ip": "13.208.244.144",
@@ -33,7 +33,7 @@
                 "out-prefixes": ["66.180.190.0/23"]
             }
         ],
-        "as_number": "65429"
+        "as-number": "65429"
     },
     "isi": {
         "public-ip": "23.240.98.171",
@@ -45,7 +45,7 @@
                 "out-prefixes": ["66.180.190.0/23"]
             }
         ], 
-        "as_number": "65430"
+        "as-number": "65430"
     },
     "grnet": {
         "public-ip": "23.240.98.171",
@@ -57,6 +57,6 @@
                 "out-prefixes": ["66.180.190.0/23"]
             }
         ],
-        "as_number": "65431"
+        "as-number": "65431"
     }
 }
