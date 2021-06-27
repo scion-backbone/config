@@ -10,7 +10,7 @@ nodes = {}
 clients = {}
 
 with open('nodes.json', 'r') as cfg:
-    nodes = json.load(cfg)
+    nodes = json.load(cfg)['nodes']
 
 with open('clients.json', 'r') as cfg:
     clients = json.load(cfg)
@@ -37,7 +37,7 @@ def gen_client_cfgs():
         del cfg[USER_KEY] # only required for SSH
 
         # Add information about provider nodes
-        relevant_fields = ['vpn-key', 'public-ip'] 
+        relevant_fields = ['vpn-public-key', 'public-ip'] 
         for provider in cfg['providers']:
             node = nodes[provider['id']]
             for field in relevant_fields:

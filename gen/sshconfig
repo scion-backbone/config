@@ -1,1 +1,36 @@
-Host sbas-secure-prefix
+Host sbas-oregon
+    HostName 44.241.139.170
+    User scionlab
+
+Host sbas-frankfurt
+    HostName 52.58.224.202
+    User scionlab
+
+Host sbas-singapore
+    HostName 54.254.43.169
+    User scionlab
+
+Host sbas-tokyo
+    HostName 52.69.124.96
+    User scionlab
+
+Host sbas-zurich
+    HostName 129.132.55.216
+    User wannerjo
+
+Host sbas-california
+    HostName 54.219.196.249
+    User ubuntu
+
+Host sbas-osaka
+    HostName 13.208.244.144
+    User ubuntu
+
+Host sbas-isi
+    HostName 23.240.98.171
+    User henry
+
+Host sbas-grnet
+    HostName 23.240.98.171
+    User henry
+
