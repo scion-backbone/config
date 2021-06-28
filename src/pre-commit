@@ -1,5 +1,4 @@
 #!/bin/bash
 
-python3 src/test_config_files.py
-
+./src/integrity.py
 exit
