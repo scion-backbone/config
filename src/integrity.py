@@ -38,10 +38,12 @@ def check_integrity():
             if not client: # check if connected client of a node does not exist in clients.json
                 error(f"{connected_client} configuration does not exist in clients.json.")
             else:
+                match = False
                 for provider in client['providers']: 
                     if provider['id'] == name:
+                        match = True
                         break
-                else:
+                if not match:
                     error(f"{name} not included in the providers list of client {connected_client}.")
 
     exit(exit_status)
