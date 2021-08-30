@@ -19,7 +19,7 @@
       "connected-clients": ["california", "isi"]
     },
     "frankfurt": {
-      "public-ip": "52.58.224.202",
+      "public-ip": "18.158.218.146",
       "scion-ia": "16-ffaa:0:1009",
       "internal-prefix": "172.22.2.0/24",
       "internal-ip": "172.22.2.1",
