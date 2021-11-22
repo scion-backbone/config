@@ -12,7 +12,7 @@
         "as-number": "65427"
     },
     "california": {
-        "public-ip": "54.219.196.249",
+        "public-ip": "18.144.62.82",
         "ssh-user": "ubuntu",
         "providers": [
             {
