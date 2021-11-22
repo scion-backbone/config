@@ -3,7 +3,7 @@ Host sbas-oregon
     User scionlab
 
 Host sbas-frankfurt
-    HostName 52.58.224.202
+    HostName 18.158.218.146
     User scionlab
 
 Host sbas-singapore
@@ -19,7 +19,7 @@ Host sbas-zurich
     User wannerjo
 
 Host sbas-california
-    HostName 54.219.196.249
+    HostName 18.144.62.82
     User ubuntu
 
 Host sbas-osaka
