@@ -6,8 +6,9 @@
       "out-prefixes": [
         "66.180.190.0/23"
       ],
-      "vpn-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
+      "vpn-public-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
       "public-ip": "44.241.139.170"
     }
-  ]
+  ],
+  "as-number": "65428"
 }

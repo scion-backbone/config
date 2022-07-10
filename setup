@@ -1,2 +1,3 @@
 #!/bin/bash
 cp src/post-commit .git/hooks
+cp src/pre-commit .git/hooks
