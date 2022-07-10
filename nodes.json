@@ -1,63 +1,36 @@
-{ "secure-prefix": "66.180.190.0/23",
-  "as-number": 65432,
-  "nodes":{
-    "oregon": {
-      "public-ip": "44.241.139.170",
-      "scion-ia": "16-ffaa:0:1008",
-      "internal-prefix": "172.22.1.0/24",
-      "internal-ip": "172.22.1.1",
-      "secure-subprefix": "66.180.190.0/25",
-      "secure-vpn-ip": "66.180.190.1",
-      "secure-router-ip": "66.180.190.2",
-      "peering-mux": "seattle01",
-      "peering-prefixes": [
-        ["66.180.190.0/24", "66.180.190.1/24"], 
-        ["66.180.191.0/24", "66.180.191.1/24"]
-      ],
-      "global-gateway": "local",
-      "vpn-public-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
-      "connected-clients": ["california", "isi"]
-    },
-    "frankfurt": {
-      "public-ip": "18.158.218.146",
-      "scion-ia": "16-ffaa:0:1009",
-      "internal-prefix": "172.22.2.0/24",
-      "internal-ip": "172.22.2.1",
-      "secure-subprefix": "66.180.190.128/25",
-      "secure-vpn-ip": "66.180.190.129",
-      "secure-router-ip": "66.180.190.130",
-      "peering-mux": "amsterdam01",
-      "peering-prefixes": [
-        ["66.180.190.0/24", "66.180.190.1/24"], 
-        ["66.180.191.0/24", "66.180.191.1/24"]
-      ],
-      "global-gateway": "local",
-      "vpn-public-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
-      "connected-clients": ["zurich", "grnet"]
-    },
-    "singapore": {
-      "public-ip": "54.254.43.169",
-      "scion-ia": "16-ffaa:0:100a",
-      "internal-prefix": "172.22.3.0/24",
-      "internal-ip": "172.22.3.1",
-      "secure-subprefix": "66.180.191.0/25",
-      "secure-vpn-ip": "66.180.191.1",
-      "secure-router-ip": "66.180.191.2",
-      "global-gateway": "frankfurt",
-      "vpn-public-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
-      "connected-clients": []
-    },
-    "tokyo": {
-      "public-ip": "52.69.124.96",
-      "scion-ia": "16-ffaa:0:100b",
-      "internal-prefix": "172.22.4.0/24",
-      "internal-ip": "172.22.4.1",
-      "secure-subprefix": "66.180.191.128/25",
-      "secure-vpn-ip": "66.180.191.129",
-      "secure-router-ip": "66.180.191.130",
-      "global-gateway": "frankfurt",
-      "vpn-public-key": "eq4RO+DplvQlu6FUHQvJ6JmqwUIfTL6HBIsPuLs3qCI=",
-      "connected-clients": ["osaka"]
-    }
-  }
+{
+   "secure-prefix":"10.22.0.0/23",
+   "as-number":65432,
+   "nodes":{
+      "aec-1":{
+         "public-ip":"140.82.18.98",
+         "scion-ia":"18-ffaa:1:fd6",
+         "internal-prefix":"172.22.1.0/24",
+         "internal-ip":"172.22.1.1",
+         "secure-subprefix":"10.22.0.0/24",
+         "secure-vpn-ip":"10.22.0.1",
+         "secure-router-ip":"10.22.0.2",
+         "global-gateway":"local",
+         "internet-ip-gateway":"207.148.24.1",
+         "vpn-public-key":"67l11hqm6cNkFQo1CyaLjpeuUo8SyqoT0I42Olt/N30=",
+         "connected-clients":[
+            
+         ]
+      },
+      "aec-2":{
+         "public-ip":"140.82.18.98",
+         "scion-ia":"20-ffaa:1:fd7",
+         "internal-prefix":"172.22.2.0/24",
+         "internal-ip":"172.22.2.1",
+         "secure-subprefix":"10.22.1.0/24",
+         "secure-vpn-ip":"10.22.1.1",
+         "secure-router-ip":"10.22.1.2",
+         "global-gateway":"local",
+         "internet-ip-gateway":"140.82.18.1",
+         "vpn-public-key":"67l11hqm6cNkFQo1CyaLjpeuUo8SyqoT0I42Olt/N30=",
+         "connected-clients":[
+            
+         ]
+      }
+   }
 }
