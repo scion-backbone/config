@@ -2,7 +2,7 @@
    "secure-prefix":"10.22.0.0/23",
    "as-number":65432,
    "nodes":{
-      "aec-1":{
+      "aec1":{
          "public-ip":"140.82.18.98",
          "scion-ia":"18-ffaa:1:fd6",
          "internal-prefix":"172.22.1.0/24",
@@ -17,7 +17,7 @@
             
          ]
       },
-      "aec-2":{
+      "aec2":{
          "public-ip":"140.82.18.98",
          "scion-ia":"20-ffaa:1:fd7",
          "internal-prefix":"172.22.2.0/24",
